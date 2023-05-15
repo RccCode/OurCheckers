@@ -57,9 +57,6 @@ void showWinningMessage(BuildContext context, String message, Function callback)
   );
 }
 
-
-
-
 class _SinglePlayerScreenState extends State<SinglePlayerScreen>{
 
   final Color colorBackgroundF = Color(0xffeec295);

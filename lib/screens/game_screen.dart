@@ -38,9 +38,9 @@ class _GameScreenState extends State<GameScreen> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   const Scoreboard(),
-                  const TicTacToeBoard(),
-                  Text(
-                      '${roomDataProvider.roomData['turn']['nickname']}\'s turn'),
+                  const GameBoard(),
+                  // Text(
+                  //     '${roomDataProvider.roomData['turn']['nickname']}\'s turn'),
                 ],
               ),
             ),
